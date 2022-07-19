@@ -23,13 +23,13 @@ function App() {
         src="./Images/advertisement.png"
         pad={{ padding: "1rem 10rem" }}
         width="100%"
-      /> 
-       <SectionTwo /> 
+      />  
+        <SectionTwo /> 
       <Advertisement
         src="./Images/advertisement2.png"
         pad={{ padding: "1rem 21rem" }}
         width="100%"
-      />  
+      />   
        <EditorSection
        title="Editor's Pick"
         editorImg="./Images/economyman.png"
@@ -46,9 +46,9 @@ function App() {
         editorImg4="./Images/card-img4.png" clsMainImg4="100%"
         editorDesc4="Delivery race among Indian grocery startups brings road safety risks" 
        
-       /> 
+       />  
        <SocialComp/>  
-       <Carousel cheading="Limited Partners"caraDataOne={caraImg}/> 
+       <Carousel cheading="Limited Partners"caraDataOne={caraImg}/>  
        <div className="editor-section-three editor-width re-editor-sidead res-editor-section-sidead">
             <p className='sidead-para'>Advertisement</p>
             <img src="./Images/sidead.png" alt="" className="side-ad res-sidead"/>
@@ -56,11 +56,11 @@ function App() {
        <Advertisement src="./Images/advertisement2.png"
         pad={{ padding: "1rem 21rem" }}
         width="100%"
-        />
+        /> 
         <VcPremium preImg={preImg}/>
         <UpcomingEventsResponsive/>
         <UpcomingEvents upImage={upImage}/>
-        <Carousel cheading="Founders" caraDataOne={foundersData}/>
+        {/* {/* <Carousel cheading="Founders" caraDataOne={foundersData}/> */}
         <div className="editor-section-three editor-width re-editor-sidead res-editor-section-sidead">
             <p className='sidead-para'>Advertisement</p>
             <img src="./Images/sidead.png" alt="" className="side-ad res-sidead"/>
@@ -92,11 +92,11 @@ function App() {
       <Advertisement src="./Images/advertisement2.png"
         pad={{ padding: "1rem 21rem" }}
         width="100%"
-        />
+        /> 
         <VccTv/>
         <Carousel cheading="TMT" caraDataOne={tmtImg}/>
         <Signup/>
-        <Carousel cheading="TECHCIRCLE" caraDataOne={techImg}/>
+        {/* {/* <Carousel cheading="TECHCIRCLE" caraDataOne={techImg}/> */}
 
         <div className="editor-section-three editor-width re-editor-sidead res-editor-section-sidead">
             <p className='sidead-para'>Advertisement</p>
@@ -108,10 +108,10 @@ function App() {
         width="100%"
         />
         <Carousel cheading="Mergers & Acquisitions" caraDataOne={maImg}/>
-        <Carousel cheading="Financials" caraDataOne={finImg}/> 
+        <Carousel cheading="Financials" caraDataOne={finImg}/>  
          <MoreStories/>
-      <Footer/>    
-      
+      <Footer/>      
+       
     </>
   );
 }

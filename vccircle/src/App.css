@@ -417,6 +417,8 @@ a {
   background-color: #f0f0f0;
   height: 27rem;
   margin-left: 2rem;
+  text-align: center;
+    margin-top: 28px;
 }
 
 .social-main {
@@ -429,6 +431,13 @@ a {
   width: 96%;
   height: 50vh;
 }
+.infographic-text-para{
+  text-align: center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
 .twitter-section {
   position: relative;
 }
@@ -540,6 +549,14 @@ height: 30rem; */
   border-radius: 1.5rem;
 }
 .pre-img {
+}
+.vc-pre-logo{
+  display: flex;
+}
+.crown{
+  height: 25px;
+    width: 31px;
+    padding: 0px 3px;
 }
 .premium-img {
   width: 100%;

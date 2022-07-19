@@ -8,9 +8,12 @@ export default function VcPremium(props) {
     <div className="main-container">
       <div className="container">
         <div className="vcpre-header">
+          <div className="vc-pre-logo">
           <p className="vcpre-headingone">
-            VCCircle Premium <img src="./Images/crown@2x.png" />
+            VCCircle Premium 
           </p>
+          <img src="./Images/crown.png" className="res-crown crown" />
+          </div>
           <div className="deskSub">
             
           <button className="vcpre-btn ">Subscribe</button>

@@ -12,7 +12,11 @@ export default function SocialComp() {
                     <p>World Bank arm IFC to double down its investments into funds in 2022</p>
                 </div>
             </div>
+            
+                
+            
             <div className="infographic-section ">
+            <p className="infographic-text-para">INFOGRAPHIC</p>
                 <img src="./Images/infographic.png" className="social-infographic-img"alt=""/>
             </div>
             <div className="editor-section-three side-res-ad">
