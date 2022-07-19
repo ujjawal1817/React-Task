@@ -1,0 +1,541 @@
+@media (min-width: 320px) and (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+ 
+  .container {
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .nav-border{
+    border-bottom:1px solid #e3e3e3
+  }
+  .nav-container{
+    position: fixed;
+    width: 100%;
+    z-index: 8;
+    background-color: #ffff;
+    top: 0;
+    height: auto;
+    box-shadow: 0px 2px 10px;
+    margin-left: -5px;
+}
+  
+  .deskSub {
+    display: none;
+  }
+  .res-btnSub {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .vcpre-btn {
+    width: 193px;
+    height: 35px;
+    margin-bottom: 17px
+  }
+
+  .res-logo-img {
+    width: 20vw;
+    height: 32px
+  }
+  .res-navbar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .res-nav-subscribe-ul{
+    display: block;
+  }
+  .nav-list-none{
+    display: none;
+  }
+
+  .hamburger-menu {
+   
+      display: block;
+      font-size: 5rem;
+      display: flex;
+  }
+  
+  .respons_nav {
+    display: flex;
+  }
+
+  .nav-ul {
+    display: none;
+  }
+  .menu-nav-img {
+    padding: 0rem 0rem;
+    height: 1.6vh;
+  }
+  .sub-nav {
+    display: none;
+  }
+  .res-subnav {
+    display: block;
+    width: 96%;    
+    text-align: left;
+  }
+
+  .sub-ul-nav {
+    display: block;
+    height: 94vh;
+  }
+
+  .sub-nav-li {
+    padding: 10px 50px;
+    margin-left: 0;
+    font-size: 3vw;
+    color: #222222;
+    font-weight: 600;
+  }
+  .sub-nav-li-hide {
+    display: block;
+    padding: 6px;
+    display: flex;
+  }
+  .para-sub {
+    font-size: 2.5vw;
+  }
+  .hide-menu {
+    display: block;
+  }
+  .sub-nav-li-hide-home {
+    display: block;
+    font-size: 3vw;
+    color: #222222;
+    font-weight: 600;
+  }
+  .sub-nav-li-custom {
+    display: none;
+  }
+  .extra-menu {
+    display: block;
+    font-size: 3vw;
+    color: #222222;
+    font-weight: 600;
+  }
+  .advertisement-bg {
+    display: none;
+  }
+  .section-one {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  .section-sub-img {
+    width: 97%;
+    margin-left: 1px;
+  }
+  .section-details {
+    width: 92%;
+  }
+  .section-two {
+    flex-wrap: wrap;
+    padding-left: 3rem;
+    display: block;
+  }
+
+  .res-card-1 {
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .res-card-1 img {
+    width: 100%;
+}
+.res-smallpic{
+  width: 100%;
+}
+  .res-card-details {
+    margin: 0px 2px;
+    width: 100%;
+  }
+  .card-title {
+    font-size: 2.2vw;
+  }
+  .card-desc {
+    font-size: 2.4vw;
+    width: 100%;
+  }
+  .card-author {
+    font-size: 2vw;
+  }
+  .res-edit-head {
+    width: 100%;
+  }
+  .res-editor-head-img {
+    width: 92%;
+  }
+  .res-edit-head-img {
+    width: 82%;
+  }
+  .editor-section {
+    display: block;
+    margin-left: 3rem;
+  }
+  .editor-section-title {
+    font-size: 10px;
+  }
+  .res-edit-pic {
+    width: 72%;
+  }
+  .twitter-section {
+    text-align: center;
+    padding: 13px 0px;
+    border-bottom: 1px solid #e3e3e3;
+
+  }
+  .infographic-section {
+    text-align: center;
+    padding: 13px 0px;
+    border-bottom: 1px solid #e3e3e3;
+  }
+  .social-infographic-img {
+    width: 50%;
+    height: auto;
+  }
+  .editor-section-three {
+    width: 66%;
+  }
+  .editor-section-heading {
+    font-size: 13px;
+    margin-left: 3rem;
+  }
+  .editor-width {
+    width: 100%;
+    margin-top: 13px;
+  }
+  .editor-section-three {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+    /* background: none; */
+    text-align: center;
+  }
+  .side-ad {
+    width: 50%;
+  }
+  .line-bottom {
+    display: none;
+  }
+  .res-twitter {
+    width: 50%;
+  }
+
+  .editor-section-two-details-title {
+    font-size: 3vw;
+  }
+  .editor-section-two-details {
+    width: 100%;
+  }
+  .editor-section-desc {
+    font-size: 10px;
+    width: 78%;
+  }
+  .editor-section-two-img {
+    width: 41%;  
+  }
+  .res-smallpic {
+    width: 100%;
+  }
+  .editor-section-two-details-desc {
+    font-size: 2.5vw;
+    width: 100%;
+    
+  }
+  .editor-section-two-details-author {
+    font-size: 2.2vw;
+  }
+  .social-main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .vcinvestment {
+    width: 50%;
+    left: 25%;
+    bottom: 10%;
+    padding: 0;
+  }
+
+  .section-detail-heading {
+    font-size: 10px;
+    margin: 5px 0px;
+  }
+  .section-detail-title {
+    width: 100%;
+    font-size: 3.2vw;
+    margin-top: 0px
+  }
+  .section-detail-desc {
+    width: 100%;
+    font-size: 7px;
+    margin-top: 2px  
+  }
+  .section-detail-author {
+    width: 100%;
+    font-size: 1.2vw;
+    margin-top: 4px
+  }
+  .section-detail-button {
+    display: none;
+  }
+
+  .tv-section {
+    flex-wrap: wrap;
+  }
+  .vcc_video {
+    width: 100%;
+  }
+  .tv-title {
+    width: 100%;
+    margin-top: 2px;
+    font-size: 10px;
+  }
+  .tv-para {
+    width: 100%;
+    margin-top: 6px;
+    font-size: 6px;
+  }
+  .tv-author {
+    width: 100%;
+    font-size: 5px;
+  }
+  .signup-width {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .signup-main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .res-morestoriesmain {
+    display: none;
+  }
+  .morestories-main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.ms-img-res-div{
+  width: 100%;
+}
+  .ms-img-res{
+    width: 100%;
+  }
+  .ms-heading{
+    font-size: 10px;
+  }
+
+  .ms-para {
+    /* width: 100%;  */
+    font-size: 8px;
+    padding: 4px 0px;
+}
+.ms-sub-para{
+  font-size: 7px;
+}
+  .cara-container {
+    width: 100%;
+    height: auto;
+  }
+  .carousel-heading-one {
+    font-size: 2vw;
+  }
+  .carousel-heading-two {
+    font-size: 1vw;
+  }
+  .car-card-one {
+    width: 100%;
+    height: auto;
+  }
+  .cara-img {
+    width: 100%;
+    padding: 1rem 1rem;
+  }
+  .swiper-button-next {
+    display: none;
+  }
+  .swiper-slide {
+    width: 181px !important;
+  }
+  .cara-desc {
+    font-size: 2vw;
+    width: 87%;
+    margin-left: 11px;
+    margin-top: -8px;
+  }
+  .cara-author {
+    font-size: 2vw;
+    padding: 0px 8px;
+  }
+  .res-upcomingevents{
+    display: block;
+  }
+  .main-container {
+    height: 100%;
+  }
+  .up-events-none{
+    display: none;
+  }
+  .up-re-headers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  .view-more-res {
+    display: flex;
+  }
+  .res-headerone{
+    font-size: 18px;
+    color: #000000;
+    margin-top: 10px;
+    font-weight: 800;
+  }
+  .res-headertwo{
+    font-size: 14px;
+    color: #222222;
+    font-weight: 600;
+  }
+  .angle-right{
+    width: auto;
+    margin-top: 1px;
+    
+  }
+  .card-layout{
+    display: flex;
+  }
+  .card-text{
+    margin-left: 3px;
+  }
+  .card-layout{
+    margin-top: 10px;
+    border:1px solid#0000001A;
+    padding: 6px;
+    border-radius: 12px;
+    box-shadow: 0px 1px 3px;
+  }
+  .img-card{
+    width: 37%;
+  }
+  .upcoming-img-res{
+    width: 100%;
+  }
+  .card-text-title{
+    font-size: 10px;
+    color: #096FFA;
+    font-weight: 800;
+  }
+  .card-text-desc{
+    font-size: 12px;
+    font-weight: 800;
+    color: #000000;
+    margin-top: 4px;
+  }
+  .card-text-author{
+    font-size: 10px;
+    font-weight:400;
+    color: #333333;
+    margin-top: 10px;
+  }
+  .footer-mosiac-img {
+    width: 100%;
+}
+.social-media-icons{
+  margin-top:20px;
+}
+.res-footer-img{
+  width: 30%;
+}
+.fb{
+  width: auto;
+}
+.twitter{
+width: auto;
+}
+.lkdn{
+width: auto;
+}
+.social-res-footer{
+  width: 100%;
+}
+.footer-ul-list {
+  flex-wrap: wrap;
+  padding: 10px 4px;
+}
+.footer-li-list{
+  margin-right: 28px;
+  padding: 4px 0px;
+}
+.footer-list-one {
+ margin-left: 3.9px;
+}
+.footer-li-list-second{
+  padding: 2px 15px;
+}
+.copyright-para {
+  padding: 0px 54px;
+}
+.res-editor-section-sidead{
+  display: block;
+}
+
+
+.res-editor-section-sidead img{
+  width: 94%;
+  height: 21vh
+}
+
+.res-sidead-none{
+  display: none;
+}
+.none-border{
+  display: none;
+}
+  /* .vcpre-btn {
+    display: none;
+  } */
+}
+
+
+.side-res-ad {
+  
+  background: none;
+}
+
+@media (min-width: 414px) and (max-width: 768px) {
+  .container {
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .res-editor-section-sidead img {
+    width: 92%;
+    height: 21vh;
+  }
+  .img-card {
+   width: auto;
+}
+.upcoming-img-res {
+  width: 100%;
+}
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .cara-desc {
+    font-size: 1vw;
+    width: 100%;
+    margin-left: 11px;
+    margin-top: -8px;
+}
+  
+.side-ad {
+  width: 30%;
+    }
+    .cara-author {
+      font-size: 1vw;
+      padding: 0px 17px;
+  }
+}
