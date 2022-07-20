@@ -68,6 +68,20 @@ const preImg=[
         para:"Kalaari Capital’s partial exits from Dream11 help return $206 mn to LPs",
         author:"30 September . Madhurima Nandy +3 "
     },
+    {
+        
+        src:"./images/premiumthree.png",
+        heading:"Consumer",
+        para:"Kalaari Capital’s partial exits from Dream11 help return $206 mn to LPs",
+        author:"30 September . Madhurima Nandy +3 "
+    },
+    {
+        
+        src:"./images/premiumthree.png",
+        heading:"Consumer",
+        para:"Kalaari Capital’s partial exits from Dream11 help return $206 mn to LPs",
+        author:"30 September . Madhurima Nandy +3 "
+    },
     
    
     

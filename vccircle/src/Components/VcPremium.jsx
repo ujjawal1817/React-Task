@@ -26,7 +26,7 @@ export default function VcPremium(props) {
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade]}
             spaceBetween={10}
-            slidesPerView={3}
+            slidesPerView={4}
             navigation
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
