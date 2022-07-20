@@ -183,11 +183,11 @@
     padding: 0px 12px;
 }
 .card-desc {
-  font-size: 8px;
-  font-weight: 700;
-  color: #222222;
-  width: 24rem;
-  margin-top: 1rem;
+    font-size: 8px;
+    font-weight: 700;
+    color: #222222;
+    width: 24rem;
+    margin-top: 1rem;
 }
   .card-author {
     font-size: 2vw;
@@ -564,11 +564,11 @@
     display: none;
   } */
   .iframe {
-    width: 97%;
-    height: 43vh;
+    width: 100%;
+    height: auto;
     
   }
-}
+
 .re-headerone{
   font-size: 3vw;
   font-weight: bold;
@@ -580,6 +580,7 @@
 
 .side-res-ad {
   background: none;
+}
 }
 @media (min-width:600px) and (max-width:768px){
   side-ad {
