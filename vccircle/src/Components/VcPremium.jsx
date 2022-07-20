@@ -12,7 +12,7 @@ export default function VcPremium(props) {
           <p className="vcpre-headingone">
             VCCircle Premium 
           </p>
-          <img src="./Images/crown.png" className="res-crown crown" />
+          <img src="./Images/crown.png" className="res-crown crown" alt=""/>
           </div>
           <div className="deskSub">
             

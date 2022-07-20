@@ -1,17 +1,10 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FaAngleRight, FaPlay } from "react-icons/fa";
+import { FaAngleRight} from "react-icons/fa";
 import { Navigation, Pagination, Scrollbar, A11y, EffectFade } from "swiper";
 import "swiper/css/bundle";
-import { useState } from "react";
-import { useRef } from "react";
+
 export default function Carousel(props) {
-  const inpRef=useRef(null);
-  const cls=inpRef.current;
-  
-  
-  
-  const scrollCard = () => {};
   return (
     <div className="container">
       <div className="carouselheader">
@@ -52,7 +45,7 @@ export default function Carousel(props) {
                 <SwiperSlide>
                 <div className="car-card-one ">
                   <div className="premium-container">
-                    <img src={item.src} className="cara-img" />
+                    <img src={item.src} className="cara-img" alt=""/>
 
                 <span className="premium-text-carousel">PREMIUM</span>
                   </div>
