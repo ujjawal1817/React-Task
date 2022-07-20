@@ -44,6 +44,7 @@
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+   
   }
   .res-nav-subscribe-ul {
     display: block;
@@ -76,11 +77,19 @@
     display: block;
     width: 96%;
     text-align: left;
+    
+  }
+  @keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{
+      opacity:1;
+    }
   }
 
   .sub-ul-nav {
     display: block;
     height: 94vh;
+    animation: fadeIn linear 1s forwards;
   }
 
   .sub-nav-li {
@@ -267,7 +276,7 @@
     padding: 0;
   }
   .swiper-button-next {
-    display: none;
+    display: none !important;
 }
   .section-detail-heading {
     font-size: 2.8vw;
@@ -578,22 +587,22 @@
     padding: 0px 2px;
   }
   .card-title {
-    font-size: 2.2vw;
+    font-size: 2vw;
   }
   .card-desc {
-    font-size: 2.2vw;
+    font-size: 2vw;
   }
   .card-author {
-    font-size: 1.8vw;
+    font-size: 1vw;
   }
   .section-detail-heading {
     font-size: 2vw;
   }
   .section-detail-title {
-    font-size: 2vw;
+    font-size: 1.8vw;
   }
   .section-detail-desc {
-    font-size: 2vw;
+    font-size: 1.8vw;
   }
   .section-detail-author {
     font-size: 1.5vw;
@@ -685,7 +694,33 @@
   width: 100%;
   height: 20vh;
 }
-
+.side-ad {
+  width: 34%;
+}
+.carouselheader {
+  margin-top: 60px;
+}
+.res-editor-section-sidead img {
+  width: 74%;
+  height: 34vh;
+}
+.card-text-title {
+  font-size: 2vw;
+  color: #096ffa;
+  font-weight: 800;
+}
+.card-text-desc {
+  font-size: 2vw;
+  font-weight: 800;
+  color: #000000;
+  margin-top: 4px;
+}
+.card-text-author {
+  font-size: 1.8vw;
+  font-weight: 400;
+  color: #333333;
+  margin-top: 13px;
+}
   /* .res-editor-section-sidead img {
     width: 92%;
     height: 21vh;
