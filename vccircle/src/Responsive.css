@@ -186,7 +186,7 @@
     font-size: 8px;
     font-weight: 700;
     color: #222222;
-    width: 24rem;
+    width: 100%;
     margin-top: 1rem;
 }
   .card-author {
@@ -230,9 +230,9 @@
     font-weight: bold;
     color: #000000;
   }
-  .editor-section-three {
+  /* .editor-section-three {
     width: 66%;
-  }
+  } */
   .editor-section-heading {
     font-size: 13px;
     margin-left: 3rem;
@@ -248,6 +248,7 @@
     margin-top: 15px;
     /* background: none; */
     text-align: center;
+    height: auto;
   }
   .side-ad {
     width: 57% 
@@ -385,7 +386,9 @@
   }
   .ms-heading {
     font-size: 10px;
-  }
+}
+
+  
 
   .ms-para {
     /* width: 100%;  */
@@ -722,9 +725,9 @@
 .side-ad {
   width: 60%
 }
-.carouselheader {
+/* .carouselheader {
   margin-top: 230px;
-}
+} */
 .res-editor-section-sidead img {
   width: 74%;
   height: 34vh;

@@ -493,7 +493,7 @@ a {
 .cara-desc {
   font-size: 1.4rem;
   color: #222222;
-  width: 24rem;
+  width: 100%;
   font-weight: 600;
   padding: 1rem 1rem;
 }
@@ -761,7 +761,7 @@ height: 30rem; */
 }
 .ms-para {
   color: #000000;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: bold;
   width: 29rem;
   padding: 1.3rem 0rem;
