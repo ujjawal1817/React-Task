@@ -9,7 +9,7 @@ export default function Signup() {
   };
   return (
     <div className="container">
-      <div>
+      <div className="signup-container">
         <div className="signup-main">
           <div className="signup-img signup-width">
             <img src="./Images/envelope.png" alt="" />

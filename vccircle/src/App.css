@@ -480,8 +480,8 @@ a {
   justify-content: space-evenly;
 }
 .car-card-one {
-  width: 25rem;
-  height: 26rem;
+  width: 80%;
+  height: auto;
   border: 1px solid #ededed;
   margin: 0rem 2rem;
 }
@@ -687,12 +687,15 @@ height: 30rem; */
   font-weight: 400;
   margin-top: 1rem;
 }
+.signup-container{
+  margin-top: 37px;
+}
 
 .signup-main {
   display: flex;
   background-color: #000000;
   align-items: center;
-  padding: 3rem 0rem;
+  padding: 5rem 0rem;
   justify-content: space-around;
   border-radius: 10px;
 }
