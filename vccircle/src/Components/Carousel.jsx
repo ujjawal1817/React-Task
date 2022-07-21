@@ -16,22 +16,25 @@ export default function Carousel(props) {
 
       <div className="cara-container">
         <Swiper
-        breakpoints={{
-          640:{
-            width:640,
-            slidesPerView:1,
-
-          },
-          768:{
-            width:768,
-            slidesPerView:2
-          }
-        }}
+          breakpoints={{
+            340:{
+              slidesPerView:1,
+              spaceBetween:20,
+            },
+            768:{
+              slidesPerView:2,
+              spaceBetween:20,
+            },
+            1024:{
+              slidesPerView:4,
+              spaceBetween:50,
+            }
+          }}
         
           // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade]}
           spaceBetween={10}
-          slidesPerView={4}
+          slidesPerView={5}
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}

@@ -60,7 +60,7 @@ function App() {
         <VcPremium preImg={preImg}/>
         <UpcomingEventsResponsive/>
         <UpcomingEvents upImage={upImage}/>
-        {/* {/* <Carousel cheading="Founders" caraDataOne={foundersData}/> */}
+        <Carousel cheading="Founders" caraDataOne={foundersData}/>
         <div className="editor-section-three editor-width re-editor-sidead res-editor-section-sidead">
             <p className='sidead-para'>Advertisement</p>
             <img src="./Images/sidead.png" alt="" className="side-ad res-sidead"/>
@@ -96,7 +96,7 @@ function App() {
         <VccTv/>
         <Carousel cheading="TMT" caraDataOne={tmtImg}/>
         <Signup/>
-        {/* {/* <Carousel cheading="TECHCIRCLE" caraDataOne={techImg}/> */}
+         <Carousel cheading="TECHCIRCLE" caraDataOne={techImg}/> 
 
         <div className="editor-section-three editor-width re-editor-sidead res-editor-section-sidead">
             <p className='sidead-para'>Advertisement</p>

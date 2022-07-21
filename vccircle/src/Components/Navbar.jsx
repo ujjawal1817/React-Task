@@ -2,6 +2,7 @@ import React from "react";
 import { useRef } from "react";
 import { useState } from "react";
 import { HiMenu } from "react-icons/hi";
+import { GrFormClose } from "react-icons/gr";
 
 export default function Navbar() {
   const [menu, setMenu] = useState(false);
@@ -91,6 +92,21 @@ export default function Navbar() {
             </ul>
           </div>
           <div className={menu ? "sub-nav res-subnav" : "sub-nav"} ref={inpRef}>
+            <div className="txt_cntr">
+              <span>
+                <img
+                  src="./Images/vccircle.png"
+                  alt="logo-vccircle"
+                  className="logo-img res-logo-img"
+                />
+              </span>
+
+              <span className=" flt-right">
+                <a href="#" onClick={show}>
+                  <GrFormClose />
+                </a>
+              </span>
+            </div>
             <ul className="sub-ul-nav">
               <li className="sub-nav-li sub-nav-li-hide-home nav-border">
                 Home
@@ -143,7 +159,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <hr className="none-border"/>
+      <hr className="none-border" />
     </>
   );
 }

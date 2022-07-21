@@ -10,6 +10,9 @@ body {
 html {
   font-size: 62.5%;
 }
+.txt_cntr{
+  display: none;
+}
 .deskSub {
   display: block;
 }

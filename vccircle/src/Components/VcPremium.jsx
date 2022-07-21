@@ -24,6 +24,20 @@ export default function VcPremium(props) {
 
         <Swiper
             // install Swiper modules
+            breakpoints={{
+              340:{
+                slidesPerView:1,
+                spaceBetween:20,
+              },
+              768:{
+                slidesPerView:2,
+                spaceBetween:20,
+              },
+              1024:{
+                slidesPerView:4,
+                spaceBetween:50,
+              }
+            }}
             modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade]}
             spaceBetween={10}
             slidesPerView={4}
