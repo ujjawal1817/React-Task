@@ -9,8 +9,8 @@ export default function UpcomingEventsResponsive() {
         <p className="re-headerone">Upcoming</p>
         <div className="view-more-res">
           <p className="re-headertwo">View More</p>
-          <div className="angle-right">
-            <FaAngleRight />
+          <div >
+            <FaAngleRight className="angle-right"/>
           </div>
         </div>
       </div>
