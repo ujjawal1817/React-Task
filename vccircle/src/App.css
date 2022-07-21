@@ -413,12 +413,12 @@ a {
   text-align: center;
 }
 .editor-section-three {
-  width: inherit;
+  /* width: inherit; */
   background-color: #f0f0f0;
-  height: 27rem;
+  /* height: 27rem; */
   margin-left: 2rem;
   text-align: center;
-    margin-top: 28px;
+  /* margin-top: 28px; */
 }
 
 .social-main {
