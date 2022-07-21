@@ -443,11 +443,11 @@ a {
 }
 .vcinvestment {
   position: absolute;
-  bottom: 0.9rem;
+  bottom: 7.5%;
   padding: 1.5rem 0.5rem;
   width: 34rem;
   background-color: #f0f0f0;
-  left: 0.4rem;
+  left: 1.2%;
   border-bottom-left-radius: 1.4rem;
   border-bottom-right-radius: 1.4rem;
 }
