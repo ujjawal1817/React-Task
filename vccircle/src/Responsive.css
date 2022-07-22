@@ -437,7 +437,7 @@ font-size: 14px;
   height: auto;
 }
 .cara-img {
-  width: auto;
+  width: 100%;
   padding: 4px 1px;
 }
 
@@ -569,6 +569,7 @@ font-size: 14px;
   .res-editor-section-sidead {
     display: block;
     height: auto;
+    margin-top: 30px
   }
 
   .res-editor-section-sidead img {
