@@ -23,7 +23,7 @@ export default function Navbar() {
           <div className="navbar res-navbar">
             <div className="hamburger-menu">
               <div>
-                <a href="#" onClick={show}>
+                <a href="/#" onClick={show}>
                   <HiMenu />
                 </a>
               </div>
@@ -101,7 +101,7 @@ export default function Navbar() {
               </span>
 
               <span className=" flt-right">
-                <a href="#" onClick={show}>
+                <a href="/#" onClick={show}>
                   <AiOutlineClose className="close-btn" />
                 </a>
               </span>
