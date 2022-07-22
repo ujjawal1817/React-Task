@@ -2,7 +2,7 @@ import React from "react";
 import { useRef } from "react";
 import { useState } from "react";
 import { HiMenu } from "react-icons/hi";
-import { GrFormClose } from "react-icons/gr";
+import { AiOutlineClose } from "react-icons/ai";
 
 export default function Navbar() {
   const [menu, setMenu] = useState(false);
@@ -103,7 +103,7 @@ export default function Navbar() {
 
               <span className=" flt-right">
                 <a href="#" onClick={show}>
-                  <GrFormClose />
+                  <AiOutlineClose className="close-btn" />
                 </a>
               </span>
             </div>
