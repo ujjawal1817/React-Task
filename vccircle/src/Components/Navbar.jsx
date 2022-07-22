@@ -6,7 +6,6 @@ import { AiOutlineClose } from "react-icons/ai";
 
 export default function Navbar() {
   const [menu, setMenu] = useState(false);
-  const [scroll, setScroll] = useState();
   const inpRef = useRef(null);
 
   const show = () => {
